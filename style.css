@@ -50,8 +50,13 @@ button {
 }
 
 .image-container {
-    margin-top: 20px; /* 與按鈕間隔2公分 */
-    text-align: center; /* 圖片置中 */
+    position: fixed;
+    bottom: 500px; /* 距離頁底2公分 */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* 圖片之間的間距 */
 }
 
 .image-container img {
