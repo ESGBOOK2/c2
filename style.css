@@ -51,7 +51,7 @@ button {
 
 .image-container {
     position: fixed;
-    bottom: 200px; /* 距離頁底2公分 */
+    bottom: 100px; /* 距離頁底2公分 */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
